@@ -12,8 +12,8 @@ app.get('/about', (request,response,next) => {
     response.sendFile(__dirname +'/views/about.html')
 });
 
-app.get('/works', (request,response,next) => {
-    response.sendFile(__dirname + '/views/works.html')
+app.get('/achievements', (request,response,next) => {
+    response.sendFile(__dirname + '/views/achievements.html')
 });
 
 app.get('/photo-gallery', (request,response,next) => {

@@ -36,3 +36,20 @@ body{
     margin-right: 200px;
     margin-left: 200px;
 }
+
+#images{
+    display:flex;
+}
+
+.imgs{
+margin-top: 50px;
+margin-left:10px;
+height:200px;
+width:200px;
+}
+
+#list{
+    margin-top:60px;
+    margin-left:100px;
+  
+}
