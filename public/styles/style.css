@@ -1,0 +1,38 @@
+body{
+    background-color:blanchedalmond
+}
+.titles{
+    font-size:30px;
+    text-align:center;
+    margin-top:50px;
+}
+
+#smile{
+    height:300px;
+    width:500px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#navbar{
+    font-size:20px;
+    display:flex;
+    justify-content:space-around;
+    list-style-type: none;
+    background-color:black ;
+}
+
+#navbar > li >a{
+    margin-top:50px;
+    font-size:40px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:none;
+    color:white;
+}
+
+.about{
+    margin-right: 200px;
+    margin-left: 200px;
+}
