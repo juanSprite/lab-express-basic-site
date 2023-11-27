@@ -17,7 +17,7 @@ app.get('/achievements', (request,response,next) => {
 });
 
 app.get('/photo-gallery', (request,response,next) => {
-    response.sendFile(__dirname + '/views/photo-gallery.html')
+    response.sendFile(__dirname + '/views/photo-gallery.html');
 });
 
 app.listen(3000, () => console.log('Listening on port 3000!!'));
